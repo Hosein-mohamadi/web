@@ -1,0 +1,22 @@
+
+    .bg-color{
+        background-color: rgb(50, 58, 95);
+        height: 75px;
+    }
+
+@media screen and (min-width:1024px) {
+    .bg-iamge{
+        background-image: url(https://website-a.vercel.app/images/header-bg.png);
+        background-repeat: no-repeat;
+        background-position:top right;
+        background-size: 100% 500px;
+    }
+    .bg-color{
+        background: none;
+    }
+}
+
+.navbar-1{
+    transition: all 1s;
+    z-index: 100px;
+}

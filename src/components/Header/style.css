@@ -1,0 +1,106 @@
+.bg-linir{
+    background: linear-gradient(to left top,#f59e0b,#ef4444,#ec4899);
+    color: white;
+}
+
+.over{
+    overflow: hidden;
+}
+
+/* .div-height{
+    height: 400px;
+    width: 500px;
+    direction: ltr;
+} */
+
+.div-anmition{
+     animation: runCuob 2s ease-in 0.6s infinite alternate;
+     width: 600px;
+     height: 600px;
+     /* left: 0px; */
+     opacity: 0.3;
+}
+
+@keyframes runCuob{
+    from{
+  transform: scale(1, 1);
+    }
+    to{
+transform: scale(0.9,0.9);
+    }
+}
+
+.bg-card-1{
+    background: linear-gradient(to left top,#ec4899,#ef4444,#f59e0b);
+    transform: scale(1);
+    transition: all 2s;
+}
+.bg-card-2{
+    background: linear-gradient(to left top,#6ee7b7,#3b82f6,#9333ea);
+    transform: scale(1);
+    transition: all 2s;
+}
+.bg-card-3{
+    background: linear-gradient(to left top,#374151,#111827,#000);
+    transform: scale(1);
+    transition: all 2s;
+}
+.bg-card-4{
+    background: linear-gradient(to left top,#f9a8d4,#d8b4fe,#818cf8);
+    transform: scale(1);
+    transition: all 2s;
+}
+.bg-card-1:hover{
+    transform: scale(1.1);
+}
+.bg-card-2:hover{
+    transform: scale(1.1);
+}
+.bg-card-3:hover{
+    transform: scale(1.1);
+}
+.bg-card-4:hover{
+    transform: scale(1.1);
+}
+
+
+.img-anmition{
+   animation: img 4s ease-in 0.5s infinite alternate;
+}
+
+@keyframes img{
+ 50%{
+     transform: scale(1.1);
+ }
+ 100%{
+     transform: scale(1);
+ }
+}
+
+
+@media only screen and (min-width: 500px){
+    .bg-card-1,.bg-card-2,.bg-card-3,.bg-card-4{
+        width: 500px;
+    }
+    
+}
+
+@media screen and (min-width:700px) {
+    .bg-card-1,
+    .bg-card-2,
+    .bg-card-3,
+    .bg-card-4{
+        width: 690px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .bg-card-1,
+    .bg-card-2,
+    .bg-card-3,
+    .bg-card-4{
+        width: 200px;
+        height: 180px;
+        
+      }
+}
