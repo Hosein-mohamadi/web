@@ -10,14 +10,14 @@ export default function Footer() {
         backgroundRepeat: "no-repeat",
         backgroundPosition: " bottom",
       }}
-      className="mt-20"
+      className="mt-20 mx-3 "
     >
       <div className=" lg:grid lg:grid-cols-4 gap-14 text-right">
-        <div>
-          <h1 className="text-2xl mt-20 mx-8 sm:mx-32 text-right text-gray-700 my-5">
+        <div className=''>
+          <h1 className="text-2xl mx-8 sm:mx-32 text-right text-gray-700 my-5">
             Teach Bess
           </h1>
-          <p className="text-sm font-bold text-gray-400 text-justify">
+          <p className="text-sm  font-bold text-gray-400 text-justify">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
             استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
             ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
