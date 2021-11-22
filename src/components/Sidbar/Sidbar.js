@@ -12,7 +12,7 @@ import { Fade, Reveal, Rotate, Zoom } from "react-reveal";
 
 export default function Sidbar() {
   return (
-    <div>
+    <div className=''>
       <div className="mt-10 ">
         <Bounce left>
           <div className="text-right mx-6">

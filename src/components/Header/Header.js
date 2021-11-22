@@ -5,13 +5,13 @@ import Fade from "react-reveal/Fade";
 
 export default function Header() {
   return (
-    <div className="over">
+    <div className="over ">
       <Navbar />
       <div>
         <Fade right>
           <div className="md:grid md:grid-cols-2 md:mt-32 relative">
             <div className="mt-16 md:mt-0 text-right">
-              <h1 className="text-2xl md:text-3xl text-gray-700 mx-5">
+              <h1 className="mt-32  text-2xl md:text-3xl text-gray-700 mx-5">
                 ما آژانس خلاق استارت آپی هستیم
               </h1>
               <div className=" sm:w-auto md:w-9/12 mx-5">
@@ -45,7 +45,7 @@ export default function Header() {
           </div>
         </Fade>
         <Fade left>
-          <div className="lg:grid lg:grid-cols-2 lg:mx-10">
+          <div className="lg:grid lg:grid-cols-2 lg:mx-10 md:pb-48">
             <div className=" md:w-auto text-center">
               <div className="bg-blue-200 div-anmition rounded-full absolute mx-0"></div>
               <div

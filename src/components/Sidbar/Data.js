@@ -45,7 +45,7 @@ export const img_arrey = [
       skill: " Product Designer",
       alt_img: "جان",
       url: "https://website-a.vercel.app/images/team4.png",
-      class: "card-4 jan",
+      class: "card-4",
       
     },
   ];

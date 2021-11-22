@@ -42,18 +42,18 @@ export default function Navbar() {
                 </div>
                 <div className={show ? "text-right" : "hidden"}>
                   <ul className="font-bold text-sm px-2">
-                    <li className="text-blue-600 my-5">صفحه اصلی</li>
+                    <li className="text-white hover:text-blue-500 cursor-pointer my-5">صفحه اصلی</li>
                     <hr />
-                    <li className="text-blue-600 my-5">خدمات</li>
-                    <hr />
-
-                    <li className="text-blue-600 my-5">درباره ما</li>
+                    <li className="text-white hover:text-blue-500 cursor-pointer my-5">خدمات</li>
                     <hr />
 
-                    <li className="text-blue-600 my-5">تاریخچه</li>
+                    <li className="text-white hover:text-blue-500 cursor-pointer my-5">درباره ما</li>
                     <hr />
 
-                    <li className="text-blue-600 my-5">تماس با ما</li>
+                    <li className="text-white hover:text-blue-500 cursor-pointer my-5">تاریخچه</li>
+                    <hr />
+
+                    <li className="text-white hover:text-blue-500 cursor-pointer my-5">تماس با ما</li>
                     <hr />
                   </ul>
                 </div>
