@@ -72,7 +72,7 @@ export default function Sidbar() {
                 {img_arrey?.map((i) => (
                   <div key={i.id}>
                     <img
-                      className="w-80 sm:w-7/12 md:w-9/12 sm:mr-36 md:mr-12 "
+                      className="w-80 sm:w-7/12 my-5 md:w-9/12 sm:mr-36 md:mr-12 "
                       src={i.url}
                       alt="خلاقیت"
                     />
@@ -139,6 +139,14 @@ export default function Sidbar() {
                 <h1 className="text-3xl text-indigo-900 my-7 font-normal">
                   نظرات مشتریان ما
                 </h1>
+                <img    className="w-10 mr-20"
+                        src="./image/message.png"
+                        alt="message"
+                      />
+                <img      className="w-28 h-28 mr-3 my-5 rounded-full"
+                          src="	https://website-a.vercel.app/images/team1.png"
+                          alt="رابرت"
+                        />
                 <p className="text-justify text-gray-500 ">
                   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
                   با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و

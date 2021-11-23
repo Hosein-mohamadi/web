@@ -10,8 +10,8 @@ export default function Header() {
       <div>
         <Fade right>
           <div className="md:grid md:grid-cols-2 md:mt-32 relative">
-            <div className="mt-16 md:mt-0 text-right">
-              <h1 className="mt-32  text-2xl md:text-3xl text-gray-700 mx-5">
+            <div className="mt-16 md:mt-0 text-right md:mx-32">
+              <h1 className="mt-32  text-2xl md:text-3xl text-gray-700 lg:text-white mx-5">
                 ما آژانس خلاق استارت آپی هستیم
               </h1>
               <div className=" sm:w-auto md:w-9/12 mx-5">
@@ -65,7 +65,7 @@ export default function Header() {
                     طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد
                   </p>
                 </div>
-                <button className="border-2 border-red-700  rounded-full w-32 ml-48 mt-5  py-1 bg-linir">
+                <button className="border-2  border-red-700  rounded-full w-32 ml-48 mt-5  py-1 bg-linir">
                   اطلاعات بیشتر
                 </button>
               </div>
